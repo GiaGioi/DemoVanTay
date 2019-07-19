@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "460983852103",
+    "firebase_url": "https://demovantay.firebaseio.com",
+    "project_id": "demovantay",
+    "storage_bucket": "demovantay.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460983852103:android:33620ff93bdc4b2a",
+        "android_client_info": {
+          "package_name": "com.gioidev.demovantay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460983852103-ie6fe9mffc0f4m2kvrdblap0bj3g7s7l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gioidev.demovantay",
+            "certificate_hash": "b90c4ca6ed486fec6897c923331f0859f40574e9"
+          }
+        },
+        {
+          "client_id": "460983852103-sua1oarhmraddfs3togvojq63kj8k67g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMQWw856meWW7tpf200ontAu21m28hZlw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460983852103-sua1oarhmraddfs3togvojq63kj8k67g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
