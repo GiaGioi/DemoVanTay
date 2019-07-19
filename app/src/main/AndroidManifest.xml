@@ -9,19 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.VIEW" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            <!--Meta - data ML Kit Face Detect-->
+        </activity>
+        <activity android:name=".MainActivity"> </activity>
+            <!-- Meta - data ML Kit Face Detect -->
             <meta-data
                 android:name="com.google.firebase.ml.vision.DEPENDENCIES"
                 android:value="face" />
-            <!--End Meta - data ML Kit Face Detect-->
+            <!-- End Meta - data ML Kit Face Detect -->
 
-        </activity>
+
     </application>
 
 </manifest>
